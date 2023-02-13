@@ -1,0 +1,127 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+}
+
+/*  */
+.cvPage{
+    width: 60vw;
+    margin: 50px auto;
+    padding: 50px;
+}
+/*  */
+
+/* Start - Left Side of CV */
+.left{
+    display: table-cell;
+    color: white;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 56px;
+    background: linear-gradient(145deg, #215174, #28608a);
+    box-shadow:  13px 13px 40px #1c4461,
+                -13px -13px 40px #2e71a1;
+}
+
+.profileImg{
+    width: 200px;
+    margin: auto auto 5px auto;
+    border-radius: 50%;
+}
+
+
+.profileInfo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profileInfo > h3 {
+    font-size: 30px;
+}
+
+.contactInfo{
+    margin-bottom: 20px;
+}
+.contactInfo > h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+
+}
+.contactInfo > a{
+    color: white;
+    text-decoration: underline;
+}
+
+.sefInfo{
+    margin-bottom: 20px;
+}
+
+.aboutMe{
+    width: 60%;
+    margin: auto;
+} 
+.aboutMe > h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+/* End - Left Side of CV */
+
+
+/* Start - Right Side of CV */
+
+.right{
+    display: table-cell;
+    padding: 30px;
+    margin-left: 100px;
+    width: 80%;    
+}
+
+.hobbies {
+    margin-bottom: 20px;
+    width: 300px;
+    display: table-cell;
+}
+.hobbies > h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #255A81;
+}
+
+.experience{
+    margin-bottom: 20px;
+    width: 50%;
+    display: table-cell;
+}
+.experience > h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #255A81;
+}
+
+.education{
+    margin: 30px 0;
+}
+.education > table > thead{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.education > h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #255A81;
+}
+
+/* End - Right Side of CV */
